@@ -1,6 +1,6 @@
 # main-0.py
 
-import sys  # Allows access to command-line arguments
+import sys 
 from bank_account import BankAccount  # Import your BankAccount class
 
 def main():
@@ -37,7 +37,5 @@ def main():
     else:
         print("Invalid command.")
 
-# Ensure script runs only when executed directly, not when imported
-if __name__ == "__main__":
-    main()
+
 
